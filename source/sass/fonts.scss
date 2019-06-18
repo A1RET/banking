@@ -1,0 +1,19 @@
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-family: "font";
+  src: url("../fonts/font.woff2") format("woff2"),
+  url("../fonts/font.woff") format("woff"),
+  url("../fonts/font.ttf") format("truetype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  font-family: "font";
+  src: url("../fonts/fontBold.woff2") format("woff2"),
+  url("../fonts/fontBold.woff") format("woff"),
+  url("../fonts/fontBold.ttf") format("truetype");
+}
