@@ -1,0 +1,51 @@
+.contact {
+  padding-top: 137px;
+  padding-bottom: 150px;
+}
+
+.contact__form {
+  display: flex;
+  margin-top: 50px;
+}
+
+.contact__block {
+  flex-grow: 1;
+
+  &:first-child {
+    margin-right: 70px;
+  }
+}
+
+.contact__item {
+  margin: 0;
+
+  &:not(:first-child) {
+    margin-top: 30px;
+  }
+}
+
+.form__input {
+  @include font(14px, 48px);
+  font-family: "Raleway";
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #000000;
+
+  &--textarea {
+    min-height: 130px;
+  }
+}
+
+.form__button {
+  @include font(14px, 28px);
+  display: inline-block;
+  font-family: "Raleway";
+  color: #ffffff;
+  width: 100%;
+  margin-top: 30px;
+  padding: 11px;
+  background-color: #0b4bec;
+  border: none;
+}

@@ -203,9 +203,10 @@
         </div>
       </section>
 
-      <section class="contact">
-        <form class="contact__form container">
-          <div class="contact__left">
+      <section class="contact container">
+        <h2 class="contact__title title">Your Message</h2>
+        <form class="contact__form">
+          <div class="contact__block contact__block--left">
             <p class="contact__item">
               <label class="visually-hidden" for="name">Your Name</label>
               <input class="form__input" type="text" name="name" id="name" placeholder="Your Name" required>
@@ -221,10 +222,10 @@
               <input class="form__input" type="text" name="subject" id="subject" placeholder="Subject" required>
             </p>
           </div>
-          <div class="contact__right">
+          <div class="contact__block contact__block--right">
             <p class="contact__item">
               <label class="visually-hidden" for="message">Message</label>
-              <textarea class="form__input form__textarea" name="message" id="message" placeholder="Messasge" required=""></textarea>
+              <textarea class="form__input form__input--textarea" name="message" id="message" placeholder="Messasge" required=""></textarea>
             </p>
             <button class="form__button">Submit</button>
           </div>
