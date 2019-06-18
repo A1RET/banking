@@ -1,6 +1,22 @@
 .header {
   color: #ffffff;
-  background-image: linear-gradient(-18deg, #061d68 0%, #0b4aec 100%);
+  background-image:
+    url("../../img/decor/bg_dollar.png"),
+    url("../../img/decor/bg_percent.png"),
+    url("../../img/decor/bg_cart.png"),
+    url("../../img/decor/bg_sl.png"),
+    url("../../img/decor/bg_rectangle.png"),
+    url("../../img/decor/bg_rectangle.png"),
+    linear-gradient(-18deg, #061d68 0%, #0b4aec 100%);
+  background-repeat: no-repeat;
+  background-position:
+    395px 589px,
+    318px 364px,
+    393px 473px,
+    261px 503px,
+    right 0 top 306px,
+    right -45px top 430px,
+    0 0;
 }
 
 .header__top {
@@ -12,10 +28,14 @@
   }
 }
 
+.header__logo {
+  margin-top: 12px
+}
+
 .header__nav {
   margin-left: auto;
 }
 
 .header__btn {
-  margin-left: 35px;
+  margin-left: 37px;
 }
