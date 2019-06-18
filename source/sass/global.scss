@@ -11,10 +11,3 @@ body {
 a {
   text-decoration: none;
 }
-
-@media (min-width: $desktop-width) {
-  body {
-    @include font;
-    position: relative;
-  }
-}
