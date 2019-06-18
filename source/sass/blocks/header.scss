@@ -1,0 +1,21 @@
+.header {
+  color: #ffffff;
+  background-image: linear-gradient(-18deg, #061d68 0%, #0b4aec 100%);
+}
+
+.header__top {
+  background-image: linear-gradient(0deg, rgba(#061d68, 0.1) 0%, rgba(#0b4aec, 0.1) 100%);
+  & .container {
+    display: flex;
+    align-items: center;
+    height: 120px;
+  }
+}
+
+.header__nav {
+  margin-left: auto;
+}
+
+.header__btn {
+  margin-left: 35px;
+}

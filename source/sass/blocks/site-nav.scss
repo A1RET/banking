@@ -1,0 +1,15 @@
+.site-nav {
+  @include list;
+  display: flex;
+}
+
+.site-nav__item {
+  &:not(:last-child) {
+    margin-right: 45px;
+  }
+}
+
+.site-nav__link {
+  font-weight: 600;
+  color: #ffffff;
+}

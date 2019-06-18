@@ -1,0 +1,41 @@
+.banner {
+  text-align: center;
+}
+
+.banner__title {
+  @include font(40px, 40px, 600);
+  margin-top: 192px;
+  margin-bottom: 0;
+}
+
+.banner__text {
+  line-height: 28px;
+  width: 970px;
+  margin: 28px auto 0;
+}
+
+.banner__btn {
+  text-transform: uppercase;
+  margin-top: 50px;
+  padding: 9px 50px;
+  border-radius: 22px;
+}
+
+.banner__cards {
+  @include list;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 92px;
+  padding-top: 64px;
+  padding-bottom: 192px;
+}
+
+.banner__card {
+  &:first-child {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
