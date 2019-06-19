@@ -47,14 +47,14 @@
   text-transform: uppercase;
   padding-top: 115px;
 
-    &::before {
+  &::before {
     content: "";
     position: absolute;
     top: 0;
     left: 50%;
     width: 100px;
     height: 100px;
-    background:no-repeat center;
+    background: no-repeat center;
     transform: translateX(-50%);
   }
 
@@ -73,7 +73,7 @@
 
 .getcard__text {
   @include font(14px, 28px);
-  font-family: "Raleway";
+  font-family: "Raleway", "Arial", sans-serif;
   margin: 0;
   margin-top: 10px;
 }
@@ -159,9 +159,6 @@
 
   .getcard__name {
     height: 80px;
-  }
-
-  .getcard__name {
     line-height: 28px;
   }
 

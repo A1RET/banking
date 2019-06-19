@@ -10,10 +10,10 @@
     linear-gradient(-18deg, #061d68 0%, #0b4aec 100%);
   background-repeat: no-repeat;
   background-position:
-    395px 589px, //dollar
-    318px 364px, //percent
-    393px 473px, //cart
-    261px 503px, //shopping list
+    395px 589px,//dollar
+    318px 364px,//percent
+    393px 473px,//cart
+    261px 503px,//shopping list
     right 0 top 306px,
     right -45px top 430px,
     0 0;
@@ -21,6 +21,7 @@
 
 .header__top {
   background-image: linear-gradient(0deg, rgba(#061d68, 0.1) 0%, rgba(#0b4aec, 0.1) 100%);
+
   & .container {
     display: flex;
     align-items: center;
@@ -48,10 +49,10 @@
 @media (max-width: 1350px) {
   .header {
     background-position:
-      230px 530px, //dollar
-      110px 250px, //percent
-      230px 370px, //cart
-      45px 440px, //shopping list
+      230px 530px,//dollar
+      110px 250px,//percent
+      230px 370px,//cart
+      45px 440px,//shopping list
       right 0 top 250px,
       right -45px top 370px,
       0 0;
