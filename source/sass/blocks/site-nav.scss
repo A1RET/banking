@@ -13,4 +13,13 @@
   font-weight: 600;
   color: #ffffff;
   text-transform: uppercase;
+
+  &:focus,
+  &:hover {
+    border-bottom: 2px solid #ffffff;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }

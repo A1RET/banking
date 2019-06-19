@@ -52,4 +52,13 @@
   background-color: #0b4bec;
   border: none;
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: darken(#0b4bec, 5%);
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }

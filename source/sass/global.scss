@@ -19,4 +19,14 @@ a {
   padding: 2px 14px;
   background-color: #ffffff;
   border-radius: 12px;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
+
+  &:active {
+    opacity: 0.6;
+    transform: scale(0.9);
+  }
 }
