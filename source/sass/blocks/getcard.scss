@@ -1,5 +1,5 @@
 .getcard {
-  padding-top: 160px;
+  padding-top: 155px;
   padding-bottom: 200px;
   background-color: #f3f2f2;
 }
@@ -9,7 +9,7 @@
 }
 
 .getcard__title {
-  margin-top: 20px;
+  margin-top: 14px;
 }
 
 .getcard__list {
@@ -18,7 +18,7 @@
   justify-content: space-between;
   align-items: center;
   height: 430px;
-  margin-top: 100px;
+  margin-top: 94px;
 }
 
 .getcard__item {
@@ -29,7 +29,7 @@
   min-height: 345px;
   width: 370px;
   box-sizing: border-box;
-  padding: 50px 40px 50px;
+  padding: 40px 39px 40px;
   background: #ffffff;
   transition-property: min-height;
   transition-duration: 0.3s;
@@ -44,6 +44,7 @@
 .getcard__name {
   @include font(20px, 42px, 600);
   position: relative;
+  text-transform: uppercase;
   padding-top: 115px;
 
     &::before {
@@ -74,5 +75,5 @@
   @include font(14px, 28px);
   font-family: "Raleway";
   margin: 0;
-  margin-top: 18px;
+  margin-top: 10px;
 }
