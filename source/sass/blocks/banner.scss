@@ -60,3 +60,33 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .banner__title {
+    @include font(30px, 30px);
+    margin-top: 100px;
+  }
+
+  .banner__card {
+    margin: auto;
+
+    &:first-child {
+      position: static;
+      transform: translateX(0);
+    }
+
+    &--back {
+      display: none;
+    }
+  }
+
+  .banner__cards {
+    padding: 0;
+  }
+
+  .banner__image {
+    width: 280px;
+    height: 250px;
+  }
+}
+

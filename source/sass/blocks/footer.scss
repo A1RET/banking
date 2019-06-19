@@ -20,3 +20,10 @@
     @include font(12px, 24px);
   }
 }
+
+@media  (max-width: 768px) {
+  .footer__text {
+    margin: 0 auto;
+    width: 200px;
+  }
+}

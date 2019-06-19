@@ -104,9 +104,15 @@
     width: 100%;
     min-height: 120px;
     text-align: left;
+    transform: scale(1);
+    transition-property: transform;
 
     &:not(:first-child) {
       margin-top: 20px;
+    }
+
+    &:hover {
+      transform: scale(1.02);
     }
   }
 
@@ -138,5 +144,28 @@
 
   .getcard__text {
     padding-left: 95px;
+  }
+}
+
+@media (max-width: 768px) {
+  .getcard {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+
+  .getcard__item {
+    flex-direction: column;
+  }
+
+  .getcard__name {
+    height: 80px;
+  }
+
+  .getcard__name {
+    line-height: 28px;
+  }
+
+  .getcard__text {
+    padding-left: 0;
   }
 }

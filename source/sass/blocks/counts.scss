@@ -85,3 +85,28 @@
     margin-top: 20px;
   }
 }
+
+@media (max-width: 768px) {
+  .counts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+  }
+
+  .counts__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .counts__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+  }
+
+  .counts__description {
+    text-align: left;
+    width: 120px;
+  }
+}

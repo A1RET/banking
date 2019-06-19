@@ -97,3 +97,33 @@
     height: 250px;
   }
 }
+
+@media (max-width: 768px) {
+  .services {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .services__titles {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .services__slider {
+    margin-top: 40px;
+  }
+
+  .services__btn {
+    width: 40px;
+  }
+
+  .services__list {
+    width: 210px;
+  }
+
+  .services__image {
+    width: 210px;
+    height: 210px;
+  }
+}
