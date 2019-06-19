@@ -1,7 +1,17 @@
 (function($) {
+  var toggleMenu = $(".header__menu-btn");
+  var menu = $(".header__nav");
+  var account = $(".header__btn-wrapper");
+
+  toggleMenu.click(function(evt) {
+    evt.preventDefault;
+    toggleMenu.toggleClass("header__menu-btn--opened");
+    menu.toggleClass('header__nav--opened');
+    account.toggleClass("header__btn-wrapper--shown");
+  });
+
   var carousel = $(".services__list");
 
-  // Запускаем плагин карусели
   carousel.owlCarousel({
     loop: true,
     margin: 30,
@@ -10,7 +20,7 @@
         items: 1
       },
 
-      768: {
+      769: {
         items: 2,
         center: true
       },
