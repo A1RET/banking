@@ -29,7 +29,7 @@
   justify-content: space-between;
   margin-top: 92px;
   padding-top: 64px;
-  padding-bottom: 109px;
+  padding-bottom: 48px;
 }
 
 .banner__card {
@@ -38,5 +38,25 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner__title {
+    margin-top: 150px;
+  }
+
+  .banner__text {
+    width: auto;
+  }
+
+  .banner__image {
+    width: 456px;
+    height: 407px;
+
+    &--back {
+      width: 331px;
+      height: 296px;
+    }
   }
 }

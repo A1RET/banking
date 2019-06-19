@@ -2,6 +2,7 @@
   padding-top: 170px;
   padding-bottom: 182px;
   background-image: linear-gradient(-18deg, rgba(#061d68, 0.9) 0%, rgba(#0b4aec, 0.9) 100%), url("../img/decor/counts__bg.png");
+  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -37,4 +38,50 @@
 .counts__text {
   @include font (52px, 52px, 600);
   margin-top: 43px;
+}
+
+@media (max-width: 1350px) {
+  .counts {
+    padding-top: 130px;
+    padding-bottom: 150px;
+  }
+
+  .counts__image {
+    transform: scale(0.8);
+  }
+
+  .counts__title {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 12px;
+  }
+
+  .counts__text {
+    @include font (42px, 42px, 600);
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .counts {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    background-image: linear-gradient(-18deg, rgba(#061d68, 0.9) 0%, rgba(#0b4aec, 0.9) 100%), url("../img/decor/counts__bg_t.png");
+  }
+
+  .counts__image {
+    transform: scale(0.7);
+  }
+
+  .counts__title {
+    @include font(14px, 24px);
+    margin: 0;
+    margin-top: 12px;
+  }
+
+  .counts__text {
+    @include font (30px, 30px, 600);
+    margin-top: 20px;
+  }
 }

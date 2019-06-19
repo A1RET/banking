@@ -23,3 +23,13 @@
     opacity: 0.6;
   }
 }
+
+@media (max-width: 1024px) {
+  .site-nav__item {
+    text-align: center;
+    margin: 10px 0;
+    &:not(:last-child) {
+     margin-right: 0;
+   }
+  }
+}

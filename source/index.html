@@ -17,8 +17,10 @@
       <div class="header__top">
         <div class="container">
           <picture>
-            <source type="imageswebp" srcset="img/content/Logo.webp">
+            <source media="(max-width: 1024px)" type="image/webp" srcset="img/content/Logo_t.webp">
+            <source type="image/webp" srcset="img/content/Logo.webp">
 
+            <source media="(max-width: 1024px)" srcset="img/content/Logo_t.png">
             <img class="header__logo" src="img/content/Logo.png" width="215" height="46">
           </picture>
 
@@ -31,6 +33,14 @@
           </ul>
 
           <a class="header__btn btn" href="">Create Account</a>
+          <button class="header__menu-btn">
+            <svg class="header__menu-image header__menu-image--open" width="28" height="20">
+              <use xlink:href="#menu-open"></use>
+            </svg>
+            <svg class="header__menu-image header__menu-image--close" width="21" height="21">
+              <use xlink:href="#menu-close"></use>
+            </svg>
+          </button>
         </div>
       </div>
 
@@ -43,23 +53,29 @@
         <ul class="banner__cards">
           <li class="banner__card">
             <picture>
+              <source media="(max-width: 1350px)" type="image/webp" srcset="img/content/MainCard_d.webp">
               <source type="image/webp" srcset="img/content/MainCard.webp">
 
+              <source media="(max-width: 1350px)" srcset="img/content/MainCard_d.png">
               <img class="banner__image" src="img/content/MainCard.png" width="570" height="509">
             </picture>
           </li>
           <li class="banner__card">
             <picture>
+              <source media="(max-width: 1350px)" type="image/webp" srcset="img/content/Card2.webp">
               <source type="image/webp" srcset="img/content/Card2.webp">
 
-              <img class="banner__image" src="img/content/Card2.png" width="414" height="370">
+              <source media="(max-width: 1350px)" srcset="img/content/Card2.png">
+              <img class="banner__image banner__image--back" src="img/content/Card2.png" width="414" height="370">
             </picture>
           </li>
           <li class="banner__card">
             <picture>
+              <source media="(max-width: 1350px)" type="image/webp" srcset="img/content/Card3_d.webp">
               <source type="image/webp" srcset="img/content/Card3.webp">
 
-              <img class="banner__image" src="img/content/Card3.png" width="414" height="370">
+              <source media="(max-width: 1350px)" srcset="img/content/Card3_d.png">
+              <img class="banner__image banner__image--back" src="img/content/Card3.png" width="414" height="370">
             </picture>
           </li>
         </ul>
@@ -99,7 +115,7 @@
 
         <div class="services__slider">
           <button class="services__btn services__btn--prev">
-            <svg class="counts__arrow" width="32" height="20">
+            <svg class="services__arrow" width="32" height="20">
               <use xlink:href="#arrow"></use>
             </svg>
           </button>
@@ -107,8 +123,10 @@
             <li class="services__item">
               <a class="services__link" href="">
                 <picture>
+                  <source media="(max-width: 1350px)" type="image/webp" srcset="img/content/service_tickets_d.webp">
                   <source type="image/webp" srcset="img/content/service_tickets.webp">
 
+                  <source media="(max-width: 1350px)" srcset="img/content/service_tickets_d.png">
                   <img class="services__image" src="img/content/service_tickets.png" width="270" height="270">
                 </picture>
                 <p class="services__text">Sports Ticket</p>
@@ -117,8 +135,10 @@
             <li class="services__item">
               <a class="services__link" href="">
                 <picture>
+                  <source media="(max-width: 1350px)" type="image/webp" srcset="img/content/service_balance_d.webp">
                   <source type="image/webp" srcset="img/content/service_balance.webp">
 
+                  <source media="(max-width: 1350px)" srcset="img/content/service_balance_d.png">
                   <img class="services__image" src="img/content/service_balance.png" width="270" height="270">
                 </picture>
                 <p class="services__text">Balance transform</p>
@@ -127,8 +147,10 @@
             <li class="services__item">
               <a class="services__link" href="">
                 <picture>
+                  <source media="(max-width: 1350px)" type="image/webp" srcset="img/content/service_ib_d.webp">
                   <source type="image/webp" srcset="img/content/service_ib.webp">
 
+                  <source media="(max-width: 1350px)" srcset="img/content/service_ib_d.png">
                   <img class="services__image" src="img/content/service_ib.png" width="270" height="270">
                 </picture>
                 <p class="services__text">Internet Banking</p>
@@ -137,8 +159,10 @@
             <li class="services__item">
               <a class="services__link" href="">
                 <picture>
+                  <source media="(max-width: 1350px)" type="image/webp" srcset="img/content/service_bp_d.webp">
                   <source type="image/webp" srcset="img/content/service_bp.webp">
 
+                  <source media="(max-width: 1350px)" srcset="img/content/service_bp_d.png">
                   <img class="services__image" src="img/content/service_bp.png" width="270" height="270">
                 </picture>
                 <p class="services__text">Buying Payment</p>
@@ -147,8 +171,10 @@
             <li class="services__item">
               <a class="services__link" href="">
                 <picture>
+                  <source media="(max-width: 1350px)" type="image/webp" srcset="img/content/service_booking_d.webp">
                   <source type="image/webp" srcset="img/content/service_booking.webp">
 
+                  <source media="(max-width: 1350px)" srcset="img/content/service_booking_d.png">
                   <img class="services__image" src="img/content/service_booking.png" width="270" height="270">
                 </picture>
                 <p class="services__text">Buy Air Ticket</p>
@@ -157,8 +183,10 @@
             <li class="services__item">
               <a class="services__link" href="">
                 <picture>
+                  <source media="(max-width: 1350px)" type="image/webp" srcset="img/content/service_mobile_d.webp">
                   <source type="image/webp" srcset="img/content/service_mobile.webp">
 
+                  <source media="(max-width: 1350px)" srcset="img/content/service_mobile_d.png">
                   <img class="services__image" src="img/content/service_mobile.png" width="270" height="270">
                 </picture>
                 <p class="services__text">Mobile Recharge</p>
@@ -166,7 +194,7 @@
             </li>
           </ul>
           <button class="services__btn services__btn--next">
-            <svg class="counts__arrow" width="32" height="20">
+            <svg class="services__arrow" width="32" height="20">
               <use xlink:href="#arrow"></use>
             </svg>
           </button>

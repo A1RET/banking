@@ -11,7 +11,7 @@
 .contact__block {
   flex-grow: 1;
 
-  &:first-child {
+  &--left {
     margin-right: 75px;
   }
 }
@@ -60,5 +60,34 @@
 
   &:active {
     opacity: 0.6;
+  }
+}
+
+
+@media (max-width: 1350px) {
+  .contact {
+    padding-top: 100px;
+    padding-bottom: 115px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .contact__form {
+    flex-direction: column;
+  }
+
+  .contact__block {
+    &--left {
+      margin-right: 0;
+    }
+
+    &--right {
+      margin-top: 30px;
+    }
   }
 }

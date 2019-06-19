@@ -77,3 +77,66 @@
   margin: 0;
   margin-top: 10px;
 }
+
+@media (max-width: 1350px) {
+  .getcard {
+    padding-top: 100px;
+    padding-bottom: 140px;
+  }
+
+  .getcard__list {
+    height: 400px;
+  }
+
+  .getcard__item {
+    width: 31.62%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .getcard__list {
+    flex-direction: column;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .getcard__item {
+    width: 100%;
+    min-height: 120px;
+    text-align: left;
+
+    &:not(:first-child) {
+      margin-top: 20px;
+    }
+  }
+
+  .getcard__name {
+    @include font(20px, 42px, 600);
+    padding-top: 0;
+    padding-left: 95px;
+
+    &::before {
+      top: 0;
+      left: 0;
+      width: 80px;
+      height: 80px;
+      transform: translateX(0);
+    }
+
+    &--online::before {
+      background-image: url("../img/decor/ep_oa_d.png");
+    }
+
+    &--approval::before {
+      background-image: url("../img/decor/ep_ga_d.png");
+    }
+
+    &--card::before {
+      background-image: url("../img/decor/ep_gyc_d.png");
+    }
+  }
+
+  .getcard__text {
+    padding-left: 95px;
+  }
+}
