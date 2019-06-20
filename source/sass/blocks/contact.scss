@@ -24,7 +24,7 @@
   }
 }
 
-.form__input {
+.contact__input {
   @include font(14px, 48px);
   font-family: "Raleway", "Arial", sans-serif;
   width: 100%;
@@ -42,7 +42,7 @@
   }
 }
 
-.form__button {
+.contact__button {
   @include font(14px, 28px);
   display: inline-block;
   font-family: "Raleway", "Arial", sans-serif;
